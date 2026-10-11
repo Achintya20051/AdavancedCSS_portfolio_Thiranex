@@ -22,6 +22,3 @@ A responsive personal portfolio built with semantic HTML5, modern CSS architectu
 - Use browser DevTools device toolbar to test phone and tablet widths.
 - Toggle the theme to demonstrate the CSS-variable-based light/dark mode.
 - Explain how `.hero`, `.skills-grid`, and `.projects-grid` use CSS Grid, while navigation and action groups use Flexbox.
-
-## Personalize before submission
-Replace the example name “Alex Morgan,” sample project content, and `hello@example.com` with your own details. Add your real GitHub/LinkedIn links if required by your reviewer.
