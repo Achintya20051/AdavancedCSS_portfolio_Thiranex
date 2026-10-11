@@ -1,0 +1,392 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Achintya Kumar Srivastava's portfolio showcasing web development projects and technical skills.">
+  <title>Achintya Kumar Srivastava | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Achintya Kumar Srivastava home">
+        <span class="brand-mark">A</span>
+        <span>Achintya<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-expanded="false" aria-controls="nav-links"
+        aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+        <button class="theme-toggle" id="theme-toggle" type="button"
+          aria-label="Switch to dark theme">
+          <span id="theme-icon" aria-hidden="true">☾</span>
+          <span class="theme-label">Theme</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO SECTION -->
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          AVAILABLE FOR OPPORTUNITIES
+        </p>
+
+        <h1 id="hero-title">
+          Building meaningful digital experiences
+          <span class="gradient-text">for the web.</span>
+        </h1>
+
+        <p class="hero-intro">
+          Hi, I'm Achintya Kumar Srivastava, a Computer Science undergraduate
+          interested in web development, problem-solving, and building
+          practical applications using modern technologies.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my work <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button button-secondary" href="#contact">
+            Let's talk
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <strong>03+</strong>
+            <span>Years learning</span>
+          </div>
+          <div>
+            <strong>03</strong>
+            <span>Featured projects</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>Curiosity</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Decorative portfolio illustration">
+        <div class="visual-glow"></div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="visual-card card-back">
+          <span class="mini-label">CREATIVE CODE</span>
+          <div class="code-lines">
+            <i></i><i></i><i></i><i></i>
+          </div>
+        </div>
+
+        <div class="visual-card card-front">
+          <div class="avatar-shape"><span>A</span></div>
+          <div class="visual-caption">
+            <strong>Achintya Kumar Srivastava</strong>
+            <span>Developer · Creator</span>
+          </div>
+          <span class="sparkle">✳</span>
+        </div>
+
+        <span class="float-tag tag-top">✦ Curious by nature</span>
+        <span class="float-tag tag-bottom">⌘ Building ideas</span>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section section-soft" id="about"
+      aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2 id="about-title">
+            Good development starts with good ideas.
+            <br>
+            <span class="muted-heading">Great results come from execution.</span>
+          </h2>
+        </div>
+
+        <div class="about-content">
+          <p>
+            I'm a Computer Science undergraduate at Galgotias University
+            with an interest in full-stack development and software
+            engineering. I enjoy creating web applications that combine
+            useful functionality with clean and responsive interfaces.
+          </p>
+
+          <p>
+            My projects include EcoLearners, a gamified environmental
+            education platform; VideoRAG, an application for asking
+            questions about video content; and ShopSwift, an e-commerce
+            website. I continuously work on improving my technical
+            knowledge and development skills.
+          </p>
+
+          <a class="text-link" href="#contact">
+            Get in touch <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section container" id="skills"
+      aria-labelledby="skills-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">WHAT I WORK WITH</p>
+          <h2 id="skills-title">Skills & toolkit</h2>
+        </div>
+
+        <p class="section-note">
+          Technologies and tools I use to develop practical applications.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon icon-purple">⌘</div>
+          <h3>Frontend Development</h3>
+          <p>
+            Creating responsive and accessible interfaces using modern
+            web development technologies.
+          </p>
+          <div class="chip-list">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon icon-orange">◈</div>
+          <h3>Backend & Database</h3>
+          <p>
+            Developing application logic, backend APIs, and database-driven
+            web application features.
+          </p>
+          <div class="chip-list">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MySQL</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon icon-green">⌬</div>
+          <h3>Tools & Technologies</h3>
+          <p>
+            Using development tools and version control to manage and
+            organize projects.
+          </p>
+          <div class="chip-list">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section section-soft" id="projects"
+      aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2 id="projects-title">Things I've built</h2>
+          </div>
+
+          <p class="section-note">
+            A selection of projects demonstrating my development skills
+            and interest in solving real-world problems.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: ECOLEARNERS -->
+          <article class="project-card">
+            <div class="project-art art-one">
+              <div class="dashboard-window">
+                <div class="window-top">
+                  <i></i><i></i><i></i>
+                </div>
+                <div class="dashboard-body">
+                  <div class="dash-sidebar"></div>
+                  <div class="dash-content">
+                    <span></span>
+                    <span></span>
+                    <div class="dash-chart"></div>
+                    <div class="dash-row">
+                      <i></i><i></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span class="art-number">01 / EDUCATION</span>
+            </div>
+
+            <div class="project-info">
+              <div>
+                <h3>EcoLearners</h3>
+                <p>
+                  A gamified web application that helps students learn
+                  environmental studies through engaging activities
+                  and interactive educational experiences.
+                </p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="project-tags">
+              <span>Environmental Education</span>
+              <span>Gamification</span>
+              <span>Web Development</span>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: VIDEORAG -->
+          <article class="project-card">
+            <div class="project-art art-two">
+              <div class="phone-mock">
+                <div class="phone-notch"></div>
+                <div class="phone-circle">✳</div>
+                <div class="phone-title">
+                  Ask questions.<br>Find answers.
+                </div>
+                <div class="phone-line"></div>
+                <div class="phone-pill">Explore video ↗</div>
+              </div>
+              <span class="art-number">02 / AI APPLICATION</span>
+            </div>
+
+            <div class="project-info">
+              <div>
+                <h3>VideoRAG</h3>
+                <p>
+                  A video question-answering application that processes
+                  video content, retrieves relevant contextual information,
+                  and generates answers with useful timestamps.
+                </p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>ChromaDB</span>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: SHOPSWIFT -->
+          <article class="project-card">
+            <div class="project-art art-three">
+              <div class="orbit-art">
+                <span>shop</span>
+                <i>✦</i>
+                <b>↗</b>
+                <em>discover</em>
+              </div>
+              <span class="art-number">03 / E-COMMERCE</span>
+            </div>
+
+            <div class="project-info">
+              <div>
+                <h3>ShopSwift</h3>
+                <p>
+                  An e-commerce website designed to provide a convenient
+                  online shopping experience with product browsing
+                  and an organized user interface.
+                </p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="project-tags">
+              <span>HTML & CSS</span>
+              <span>JavaScript</span>
+              <span>Web Development</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section container" id="contact"
+      aria-labelledby="contact-title">
+      <div class="contact-panel">
+        <div>
+          <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+          <h2 id="contact-title">
+            Let's make something
+            <br>
+            <span class="gradient-text">meaningful.</span>
+          </h2>
+
+          <p class="contact-copy">
+            Have an opportunity, a project idea, or a question?
+            Feel free to reach out to me.
+          </p>
+        </div>
+
+        <a class="button button-light"
+          href="mailto:achintyaksrivastava@gmail.com">
+          achintyaksrivastava@gmail.com
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <div class="contact-decoration" aria-hidden="true">✳</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">
+        <span class="brand-mark">A</span>
+        <span>Achintya<span class="brand-dot">.</span></span>
+      </a>
+
+      <p>Designed with intention. Built with curiosity.</p>
+
+      <p>
+        © <span id="year"></span> Achintya Kumar Srivastava
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
+```
